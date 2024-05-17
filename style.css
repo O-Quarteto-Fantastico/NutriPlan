@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to right, #2B5227,#496D46,#5F9F55);
+}
+
+.navegacao{
+    width: 1100px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 350px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+header p{
+    position: absolute;
+    right: 50px;
+    color: white;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.login a{
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    color: white;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-right: 190px;
+}
