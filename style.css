@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
 }
 
 header{
@@ -36,6 +37,187 @@ header p{
     right: 50px;
     color: white;
     font-size: 25px;
-    margin-top: -20px;
+    margin-top: -35px;
     margin-right: 190px;
+}
+
+body h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+body p{
+    text-align: center;
+    font-size: 30px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unidade{
+    width: 100%;
+    height: 750px;
+    background-image:linear-gradient(#2D552A, #4C7448, #5E9E54, #FFF);
+    border-radius: 50px;
+    color: #FFF;
+}
+
+.unidade h1{
+    font-size: 50px;
+    position: relative;
+    top:25px;
+}
+
+.unidade img{
+    border-radius: 50px;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 100px;
+    top: 2030px;
+}
+
+.unidade p{
+    width: 700px;
+    position: absolute;
+    right: 100px;
+    top:2200px;
+}
+
+.container{
+    display: flex;
+}
+
+.consultas{
+    position: relative;
+    left: -150px;
+}
+
+.consultas p{
+    width: 700px;
+}
+
+.exames{
+    position: relative;
+}
+
+.exames p{
+    width: 700px;
+}
+
+.convênios{
+    height: 900px;
+    width: 1500px;
+    background-color: #2C5329;
+    border-radius: 100px;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.convênios h1{
+    position: relative;
+    top: 50px;
+    font-size: 55px;
+}
+
+.convênios img{
+    border-radius: 100px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    left: 280px;
+    top: 50px;
+    margin:30px;
+}
+
+.convenioimg{
+    width: 1200px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54);
+}
+
+#postxt1 {
+    position: relative;
+    left: -560px;
+    top:-10px;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+}
+#postxt2 {
+    position: relative;
+    left: -400px;
+    top:-10px;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+}
+#postxt3 {
+    position: relative;
+    top: 120px;
+    left: 740px;
+    height: 50px;
+    width: 300px;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+}
+#enderecolink {
+    font-size: 23px;
+    position: relative;
+    top: 110px;
+    left: -640px;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #fff;
+}
+#LogoNutriPlan {
+    border: 3px solid #fff;
+    width: 300px;
+    position: relative;
+    top: 95px;
+    left: 800px;
+}
+#FacebookIcon {
+    width: 115px;
+    position: relative;
+    top: 100px;
+    left: 1150px;
+}
+#WhatsAppIcon {
+    width: 80px;
+    position: relative;
+    top: 100px;
+    left: 1200px;
+}
+#InstagramIcon {
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 1250px;
+}
+#LocalizationIcon {
+    width: 130px;
+    position: relative;
+    top: 100px;
+    left: -620px;
 }
