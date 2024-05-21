@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top:4px;
+    left: 60px;
+}
+
+.info1{
+    box-sizing: border-box;
+    margin: 0;
+    border-style: solid;
+    width: 300px;
+    height: 360px;
+    border-bottom: transparent;
+    font-family: Arial;
+}
+
+.info1 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 145px;
+    top: 90px
+}
+
+.info1 p{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.info2{
+    box-sizing: border-box;
+    margin: 0;
+    border-style: solid;
+    width: 300px;
+    height: 474px;
+    font-family: Arial;
+}
+
+.info2 p{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.ultimospacientes{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000;
+    background-color: #BEF202;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 130px;
+    left: 160px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.ultimospacientes:hover{
+    box-shadow: 0px 0px 40px #000000;
+}
+
+.consultas p{
+    position: absolute;
+    top: 100px;
+    right: 630px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.tabela{
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: 250px;
+    right: 300px;
+    background-color: #F4F4F4;
+}
+
+.entrada{
+    width: 150px;
+    height: 50px;
+    background-color: #BEF202;
+    position: absolute;
+    top: -50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.entrada p{
+    font-size: 20px;
+    left: 35px;
+    top: 15px;
+}
+
+.saida{
+    width: 150px;
+    height: 50px;
+    background-color: #BEF202;
+    position: absolute;
+    top: -50px;
+    left: 155px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.saida p{
+    font-size: 20px;
+    left: 42px;
+    top: 15px;
+}
+
+.info3 p{
+    font-size: 25px;
+    font-weight: normal;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.sair img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    bottom: 55px;
+}
