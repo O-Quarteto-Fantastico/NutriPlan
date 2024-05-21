@@ -6,7 +6,7 @@
   Aqui você encontra:
 <ul>
   <li>Base para telas dos sistema.</li>
-  <li>Telas de Cadastro e Login</li>
+  <li>Telas de Cadastro, Login e Recuperação de senha</li>
 </ul>
 </div>
 
