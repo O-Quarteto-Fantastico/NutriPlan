@@ -28,7 +28,7 @@ body{
     border-style: solid;
     border-top: transparent;
     border-left: transparent;
-    width: 300px;
+    width: 350px;
     height: 360px;
     border-bottom: transparent;
     font-family: Arial;
@@ -39,14 +39,14 @@ body{
     height: 130px;
     border-radius: 50%;
     position: absolute;
-    left: 145px;
+    left: 168px;
     top: 90px
 }
 
 .info1 p{
-    text-align: center;
     position: relative;
     top: 200px;
+    left: 25px;
     font-size: 20px;
     padding: 5px;
 }
@@ -57,39 +57,29 @@ body{
     border-style: solid;
     border-left: transparent;
     border-bottom: transparent;
-    width: 300px;
+    width: 350px;
     height: 474px;
     font-family: Arial;
 }
 
 .info2 p{
-    text-align: center;
     position: relative;
     top: 50px;
+    left: 25px;
     font-size: 20px;
     padding: 15px;
 }
 
-.ultimospacientes{
-    width: 100px;
-    height: 100px;
-    border: 3px solid #000;
-    background-color: #BEF202;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 130px;
-    left: 160px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-size: large;
+.sistema{
+    color: #5E9E54;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    font-size: 20px;
+    padding: 15px;
 }
 
-.ultimospacientes:hover{
-    box-shadow: 0px 0px 40px #000000;
-}
-
-.consultas p{
+.tabela p{
     position: absolute;
     top: 100px;
     right: 630px;
@@ -102,7 +92,7 @@ body{
     width: 1000px;
     height: 550px;
     position: absolute;
-    top: 250px;
+    top: 180px;
     right: 300px;
     background-color: #F4F4F4;
 }
@@ -140,14 +130,45 @@ body{
     top: 15px;
 }
 
+.info3{
+    font-size: 25px;  
+    font-family: Arial;
+    margin-left: 10px;
+}
+
 .info3 p{
     font-size: 25px;
     font-weight: normal;
     position: relative;
     right: 0px;
     top: 0px;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-bottom: 1px solid black;
+}
+
+.salvar{
+    position: absolute;
+    width: 265px;
+    height: 85px;
+    right: 150px;
+    bottom: 100px;
+    background: #BEF202;
+    border-radius: 100px;
+}
+
+.salvar p{
+    font-family: Arial;
+    font-weight: bold;
+    position: relative;
+    font-size: 30px;
+    left: 90px;
+    top: 27px;
+}
+
+.salvar:hover{
+    border: 3px solid #000;
+    box-shadow: 0px 0px 40px #000;
 }
 
 .sair img{
@@ -156,4 +177,58 @@ body{
     position: absolute;
     right: 5px;
     bottom: 55px;
+}
+
+.menu{
+    position: absolute;
+    top:90px;
+    right: 90px;
+}
+
+.barras{
+    width: 50px;
+    height: 15px;
+    position: relative;
+    background-color: #000;
+    border-radius: 100px;
+}
+
+.barras::before, .barras::after{
+    content: "";
+    width: 50px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 100px;
+    position: absolute;
+    top:34px;
+}
+
+.barras::after{
+    content: "";
+    top:17px
+}
+
+.circulos{
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 100%;
+    position: relative;
+    left: -20px;
+    top:-15px;
+}
+
+.circulos::before, .circulos::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 100%;
+    position: absolute;
+    top: 34px;
+}
+
+.circulos::after{
+    content: "";
+    top: 17px;
 }
