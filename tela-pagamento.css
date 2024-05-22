@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(imagens/fundo-tela-pagamento.jfif);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-position: center;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top:4px;
+    left: 60px;
+}
+
+.info p{
+    font-size: 30px;
+    font-family: "Alef", sans-serif;
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    top: 12vh;
+}
+
+.confirmar{
+    width: 20vw;
+    height: 6vh;
+    border-radius: 100px;
+    background-color: #BEF202;
+    position: absolute;
+    left: 40vw;
+    bottom:20vh
+}
+
+.confirmar p{
+    font-size: 1.4vw;
+    font-family: "Alef";
+    text-align: center;
+    position: relative;
+    top:1vh
+}
+
+.confirmar:hover{
+    border: 3px solid #000;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.barra1{
+    width: 60px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: #000;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+}
+
+.barra2{
+    width: 60px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: #000;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 16.8vh;
+    left: 5vw;
+}
