@@ -14,20 +14,37 @@
         <img src="./imagens/logo-nutri-plan.png" alt="">
     </div>
 
-    <h2 class="cadastre-se">CADASTRE-SE</h2>
+    <h2 class="frase-destaque">CADASTRE-SE</h2>
 
     <div class="infos-cadastro">
         <form>
             <label for="e-mail">E-mail</label><br>
-            <input type="text" name="e-mail"><br><br>
-            <label for="senha">Senha</label><br>
-            <input type="password" name="senha"><br><br>
-            <label for="senha">Confirmar Senha</label><br>
-            <input type="password" name="confirmar-senha"><br><br>
+            <input type="text" placeholder="Digite seu e-mail" name="e-mail"><br><br>
             <label for="celular">Celular</label><br>
-            <input type="tel" name="celular"><br>
+            <input type="tel" placeholder="Digite seu celular" name="celular"><br><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" placeholder="Digite uma senha" name="senha"><br><br>
+            <label for="senha">Confirmar Senha</label><br>
+            <input type="password" placeholder="Confirme a senha" name="confirmar-senha"><br><br>
             <!-- CAMPO PARA TELEFONE AQUI ! -->
         </form>
+
+        <script>
+            "use strict";
+                const input = document.querySelector("input");
+                const button = document.querySelector("#togglePass");
+                button.addEventListener('click', togglePass);
+
+                function togglePass() {
+                if (input.type == "password") {
+                    input.type = "text";
+                    button.textContent = "🤩";
+                } else {
+                    input.type = "password";
+                    button.textContent = "😣";
+                }
+                }
+        </script>
     </div>
     <div class="btn-criar">
         <a href="./"><button class="btn">Criar Conta</button></a>

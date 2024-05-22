@@ -17,10 +17,10 @@ body{
 }
 
 .logo img {
-    width: 700px;
+    width: 35vw;
     position: absolute;
-    left: 10%;
-    top: 18%;
+    left: 11vw;
+    top: 20vh;
 }
 
 .voltar {
@@ -30,52 +30,63 @@ body{
 
 .login{
     position: absolute;
-    left: 65%;
-    top: 30%;
+    left: 67vw;
+    top: 31vh;
 }
 
 .infos-login {
-    width: 525px;
-    height: 500px;
+    width: 30vw;
+    height: 15vh;
     position: absolute;
-    left: 55%;
-    top: 38%;
+    left: 54vw;
+    top: 35vh;
 }
 .infos-login input {
     border-radius: 10px;
     background: #d9d9d9;
     padding: 10px;
-    width: 90%;
+    width: 30vw;
+    height: 3vh;
     border: none;
 }
 
 .infos-login a {
+    width: 10vw;
     position: absolute;
-    left: 67%
+    left: 23.5vw;
 }
 
 .btn {
     background-color: #28A9E0;
     color: #ffffff;
     border: none;
-    width: 270px;
-    height: 40px;
+    width: 15vw;
+    height: 5vh;
     border-radius: 5px;
 }
 
 .btn-enviar {
     position: absolute;
-    top: 58%;
-    left: 61%;
+    left: 62vw;
+    top: 57vh;
 }
 
 .criar-conta {
+    width: 15vw;
     position: absolute;
-    top: 63%;
-    left: 61%;
+    left: 62.5vw;
+    top: 62vh
 }
-/* https://pt.stackoverflow.com/questions/342024/campo-de-pesquisa-com-borda-arredondada */
 
-/* https://www.w3schools.com/html/html_forms.asp */
-
-/* https://awari.com.br/descubra-como-personalizar-o-cursor-no-html-e-css/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Descubra%20como%20personalizar%20o%20cursor%20no%20HTML%20e%20CSS */
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus:-moz-placeholder { /* Firefox 18- */
+color: transparent;
+}
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+color: transparent;
+}
+input:focus:-ms-input-placeholder {  
+color: transparent;
+}

@@ -17,10 +17,10 @@ body{
 }
 
 .logo img {
-  width: 700px;
+  width: 35vw;
   position: absolute;
-  left: 52%;
-  top: 18%;
+  left: 53vw;
+  top: 20vh;
 }
 
 .voltar {
@@ -28,49 +28,57 @@ body{
   justify-content: end;
 }
 
-.cadastre-se{
+.frase-destaque{
   position: absolute;
-  left: 26%;
-  top: 25%;
+  left: 22vw;
+  top: 38vh;
 }
 
-.infos-cadastro {
-  width: 525px;
-  height: 500px;
+.infos-recuperacao {
+  width: 30vw;
+  height: 15vh;
   position: absolute;
-  left: 18%;
-  top: 30%;
+  left: 14vw;
+  top: 42vh;
 }
-.infos-cadastro input {
+.infos-recuperacao input {
   border-radius: 10px;
   background: #d9d9d9;
   padding: 10px;
-  width: 90%;
+  width: 30vw;
+  height: 3vh;
   border: none;
-}
-
-.infos-cadastro a {
-  position: absolute;
-  left: 67%
 }
 
 .btn {
   background-color: #28A9E0;
   color: #ffffff;
   border: none;
-  width: 270px;
-  height: 40px;
+  width: 15vw;
+  height: 5vh;
   border-radius: 5px;
 }
 
 .btn-criar {
   position: absolute;
-  top: 65%;
-  left: 23%;
+  left: 21.5vw;
+  top: 52vh;
 }
 
-.faca-login {
-  position: absolute;
-  top: 70%;
-  left: 24%;
+input:focus::-webkit-input-placeholder {
+  color: transparent;
 }
+input:focus:-moz-placeholder { /* Firefox 18- */
+  color: transparent;  
+}
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+  color: transparent;  
+}
+input:focus:-ms-input-placeholder {  
+  color: transparent;  
+}
+
+/* https://medium.com/walternascimentobarroso-pt/exibindo-senha-com-javascript-3cfb2d011c7a
+https://www.youtube.com/watch?v=ANBW8m0K4jM
+https://icons8.com.br/icons/set/password-eye
+https://awari.com.br/descubra-como-personalizar-o-cursor-no-html-e-css/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Descubra%20como%20personalizar%20o%20cursor%20no%20HTML%20e%20CSS */
