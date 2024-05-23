@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+h1 {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+a {
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    position: absolute;
+    left: 6.2vw;
+    top: 18vh;
+}
+label {
+    font-family: "Alef", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+}
+input {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: 0px;
+    height: 5vh;
+}
+#titulo {
+    position: absolute;
+    left: 10.35vw;
+    top: 10vh;
+}
+#botao-reagendar {
+    width: 20vw;
+    height: 4vw;
+    background-color: #BEF202;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 16vw;
+    top: 70vh;
+}
+#botao-cancelar {
+    width: 20vw ;
+    height: 4vw;
+    background-color: #F40000;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 16vw;
+    top: 80vh;
+}
+#barra-div-meio {
+    box-sizing: border-box;
+    border: 0.5vw solid #000;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    width: 50%;
+    height: 90%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 5vh;
+}
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    position: absolute;
+    left: 53vw;
+    top: 15vh;
+}
+#home-botao {
+    width: 50px;
+    position: absolute;
+    left: 97vw;
+    top: 88.6vh;
+}
+#voltar {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 92vw;
+    top: 10vh;
+}  
