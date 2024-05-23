@@ -77,8 +77,3 @@ input:focus::-moz-placeholder {  /* Firefox 19+ */
 input:focus:-ms-input-placeholder {  
   color: transparent;  
 }
-
-/* https://medium.com/walternascimentobarroso-pt/exibindo-senha-com-javascript-3cfb2d011c7a
-https://www.youtube.com/watch?v=ANBW8m0K4jM
-https://icons8.com.br/icons/set/password-eye
-https://awari.com.br/descubra-como-personalizar-o-cursor-no-html-e-css/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Descubra%20como%20personalizar%20o%20cursor%20no%20HTML%20e%20CSS */

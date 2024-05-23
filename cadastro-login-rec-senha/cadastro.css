@@ -79,3 +79,11 @@ input:focus::-moz-placeholder {  /* Firefox 19+ */
 input:focus:-ms-input-placeholder {  
   color: transparent;  
 }
+
+/* dar uma atenção nesses dois ultimos inputs */
+input:invalid {
+  border-color: red !important;
+}
+input:valid {
+  border-color: green !important;
+}

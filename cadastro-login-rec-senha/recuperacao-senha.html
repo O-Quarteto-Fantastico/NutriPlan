@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperação de Senha</title>
+    <title>Recupere sua senha</title>
     <link rel="stylesheet" href="./recuperacao-senha.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,18 +23,11 @@
     <div class="infos-recuperacao">
         <form>
             <label for="e-mail">E-mail</label><br>
-            <input type="text" placeholder="Digite o e-mail cadastrado" name="e-mail"><br><br>
+            <input type="email" placeholder="Digite o e-mail cadastrado" autocomplete="email" required><br><br>
         </form>
     </div>
     <div class="btn-criar">
-        <a href="./"><button class="btn">Solicitar Código</button></a>
+        <a href="./recuperacao-senha-2.html"><button class="btn">Solicitar Código</button></a>
     </div>
 </body>
 </html>
-
-<label for="senha">Código e-mail</label><br>
-<input type="password" placeholder="Digite o código recebido" name="senha"><br><br>
-<label for="senha">Nova senha</label><br>
-<input type="password" placeholder="Digite uma nova senha" name="senha"><br><br>
-<label for="senha">Confirmação</label><br>
-<input type="password" placeholder="Confirme a nova senha" name="confirmar-senha"><br><br>
