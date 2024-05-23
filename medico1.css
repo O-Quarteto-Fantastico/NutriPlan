@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 150vh;
+    width: 99.1vw;
+    background-image: url(imagens/fundo-agendamento.jfif);
+    background-repeat: no-repeat;
+    background-size: 196vh;
+    background-position-y: bottom;
+}
+
+.voltar img{
+    width: 3.5vw;
+    position: absolute;
+    top: 8vh;
+    left: 4vw;
+}
+
+.medico img{
+    width: 20vw;
+    border-radius: 50px;
+    position: absolute;
+    top: 18vh;
+    left: 13vw;
+}
+
+.info1{
+    position: absolute;
+    right: 20vw;
+    top: 18vh;
+    text-align: center;
+}
+
+.info1 h1{
+    font-family: "Alef",  sans-serif;
+    padding-bottom: 3vh;
+}
+
+.info1 p{
+    font-family: "Alef",  sans-serif;
+    font-size: 1.2vw;
+    width: 30vw;
+    padding-top: 1vh;
+}
+
+.info1 u{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.4vw;
+}
+
+.info2{
+    position: absolute;
+    right: 20vw;
+    top: 41vh;
+    text-align: center;
+}
+
+.info2 p{
+    font-family: "Alef",  sans-serif;
+    font-size: 1.2vw;
+    width: 30vw;
+    padding-top: 1vh;
+}
+
+.info2 u{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.4vw;
+}
+
+.confirmar{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 100px;
+    background-color: #BEF202;
+    position: absolute;
+    bottom: -30vh;
+    left: 39vw;
+    text-align: center;
+}
+
+.confirmar p{
+    font-size: 1.4vw;
+    position: relative;
+    top: 0.8vh;
+}
+
+.dia{
+    position: absolute;
+    bottom: 3vh;
+    left: 20vw;
+    text-align: center;
+}
+
+.dia input{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.dia p{
+    color: #fff;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    font-family: "Alef";
+}
+
+.hora{
+    position: absolute;
+    bottom: 1.613vh;
+    right: 20vw;
+    text-align: center;
+}
+
+.hora input{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.hora p{
+    color: #fff;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    font-family: "Alef";
+}
+
+.barra{
+    width: 9vw;
+    height: 6vh;
+    border-radius: 100px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -30vh;
+    right: 24vw;
+}
+
+.bola{
+    width: 5.3vh;
+    height: 5.3vh;
+    border-radius: 100%;
+    background-color: #F40034;
+    position: relative;
+    top: 0.4vh;
+    left: 0.4vh;
+}
+
+.barra p{
+    color: #fff;
+    font-size: 1vw;
+    position: relative;
+    top: 0.5vh;
+    text-align: center;
+}
