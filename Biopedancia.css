@@ -62,6 +62,7 @@ body{
 }
 
 .hora{
+    text-align: center;
     font-family: "Alef", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -73,7 +74,7 @@ body{
 
     position: relative;
     top: -0.9vh;
-    left: 65vw;
+    left: 62vw;
 }
 
 .hora p{
@@ -100,6 +101,7 @@ body{
     border-radius:100px ;
     font-size: 1.4vw;
     text-align: center; 
+    position: relative;
 }
 
 .confirmar{
