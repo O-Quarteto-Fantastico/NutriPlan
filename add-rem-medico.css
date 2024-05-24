@@ -103,6 +103,13 @@ input {
     top: 88.2vh;
     left: 97vw;
 }
+#voltar {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 92vw;
+    top: 10vh;
+}  
 .verde {
     color: #5E9E54;
 }
