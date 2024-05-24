@@ -61,7 +61,7 @@ body{
 .info2{
     position: absolute;
     right: 20vw;
-    top: 41vh;
+    top: 43vh;
     text-align: center;
 }
 
@@ -109,6 +109,7 @@ body{
     border-radius: 50px;
     text-align: center;
     font-size: 1.4vw;
+    background-color: #BEF202;
 }
 
 .dia p{
@@ -131,6 +132,7 @@ body{
     border-radius: 50px;
     text-align: center;
     font-size: 1.4vw;
+    background-color: #BEF202;
 }
 
 .hora p{
@@ -140,30 +142,62 @@ body{
     font-family: "Alef";
 }
 
-.barra{
-    width: 9vw;
-    height: 6vh;
-    border-radius: 100px;
-    background-color: #fff;
-    position: absolute;
-    bottom: -30vh;
-    right: 24vw;
+div.consulta {
+    display: flex;
+    max-width: 1024px;
+    margin: 5vh auto;
+    position: relative;
+    top: 105vh;
+    left: 45vw;
 }
 
-.bola{
-    width: 5.3vh;
-    height: 5.3vh;
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label {
+    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] + label:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid #8C8C8C;
     border-radius: 100%;
-    background-color: #F40034;
-    position: relative;
-    top: 0.4vh;
-    left: 0.4vh;
+    width:  2.5rem;
+    height: 2.5rem;
+    color: transparent;
+    transition: .2s;
+    margin-right: 16px;
+    background: #FFF;
+    cursor: pointer;
 }
 
-.barra p{
+input[type=checkbox]:checked + label:before {
+    color: #FFF;
+
+}
+
+label p{
     color: #fff;
-    font-size: 1vw;
-    position: relative;
-    top: 0.5vh;
-    text-align: center;
+    font-size: 2.5vh;
+}
+
+.first input[type=checkbox]:checked + label:before {
+    content: "\1F5B3";
+    color:#000;
+    border: 3px solid #000;
+    background: #15ff00;
+}
+
+.second input[type=checkbox]:checked + label:before {
+    content: "\1F465";
+    color: #FFF;
+    border: 3px solid #000;
+    background: #15ff00;
 }
