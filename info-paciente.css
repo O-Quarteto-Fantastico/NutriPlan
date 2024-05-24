@@ -43,7 +43,8 @@ body{
     font-family: "Alef", sans-serif;
 }
 
-.cancelar p{
+.cancelar a{
+    text-decoration: none;
     color: #C51515;
     font-size: 1.5vw;
     position: absolute;
@@ -59,4 +60,25 @@ body{
     position: absolute;
     right: 5px;
     bottom: 55px;
+}
+
+.consultaspassadas{
+    position: absolute;
+    top: 20vh;
+    right: 20vw
+}
+
+button{
+    width: 15vw;
+    background-color: transparent;
+    border: none;
+    font-family: "Alata", sans-serif;
+    font-size: 3.5vh;
+}
+
+.consultaspassadas p{
+    position: absolute;
+    top: 25vh;
+    left: 61vw;
+    border: none;
 }

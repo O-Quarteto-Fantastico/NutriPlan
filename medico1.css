@@ -144,11 +144,11 @@ body{
 
 div.consulta {
     display: flex;
-    max-width: 1024px;
+    max-width: 300px;
     margin: 5vh auto;
     position: relative;
     top: 105vh;
-    left: 45vw;
+    left: 25vw;
 }
 
 input[type=checkbox] {
