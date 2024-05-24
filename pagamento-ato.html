@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="pagamento-ato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo">
+        <img src="./imagens/logo-nutri-plan.png" alt="">
+    </div>
+
+    <h2 class="frase-destaque">Insira aqui os seus dados:</h2>
+    <div class="confirmar"><p><strong>Confrimar</strong></p></div>
+    <div class="divisoria"></div>
+    <div class="logo"><img src="Logo -Print (1).png" alt=""></div>
+    <div class="botao-voltar"><img src="SETA- print (1).png" alt=""></div>
+    <div class="observacao"><p>Obs: A consulta só será confirmada se <strong>todos</strong> os <br>
+         dados estiverem corretos. Pode demorar até 3 <br>
+          minutos para sua consulta ser confirmada. </p></div>
+
+    <div class="infos-cadastro">
+        <form method="get" autocomplete="on">
+            <label for="e-mail">E-mail</label><br>
+            <input type="email" placeholder="Digite seu e-mail" name="e-mail" autocomplete="email" required><br><br>
+            <label for="celular">Celular</label><br>
+            <input type="tel" placeholder="(__) _____-____" name="celular" autocomplete="tel" pattern="^\(\d{2}\)\d{5}-\d{4}$" minlength="0" maxlength="11" required><br><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" placeholder="Digite uma senha" name="senha" required><br><br>
+            <label for="senha">Confirmar Senha</label><br>
+            <input type="password" placeholder="Confirme a senha" name="confirmar-senha" required><br><br>
+            <label for="senha">Confirmar Senha</label><br>
+            <input type="password" placeholder="Confirme a senha" name="confirmar-senha" required><br><br>
+        </form>
+
+        <script>
+            "use strict";
+                const input = document.querySelector("input");
+                const button = document.querySelector("#togglePass");
+                button.addEventListener('click', togglePass);
+
+                function togglePass() {
+                if (input.type == "password") {
+                    input.type = "text";
+                    button.textContent = "🤩";
+                } else {
+                    input.type = "password";
+                    button.textContent = "😣";
+                }
+                }
+        </script>
+        <!-- /* https://medium.com/walternascimentobarroso-pt/exibindo-senha-com-javascript-3cfb2d011c7a
+        https://www.youtube.com/watch?v=ANBW8m0K4jM
+
+        https://icons8.com.br/icons/set/password-eye
+        
+        https://awari.com.br/descubra-como-personalizar-o-cursor-no-html-e-css/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Descubra%20como%20personalizar%20o%20cursor%20no%20HTML%20e%20CSS */ -->
+    </div>
+
+</body>
+</html>

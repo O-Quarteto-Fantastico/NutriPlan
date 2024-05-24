@@ -54,6 +54,7 @@ body{
     font-weight: 450;
     font-style: normal;
     font-size: 2vw;
+    width: 20vw;
 
     position: relative;
     top: 11vh;
@@ -68,10 +69,19 @@ body{
     font-weight: 500;
     font-style: normal;
     font-size: 1.75vw;
+    width: 20vw;
 
     position: relative;
-    top: -1.5vh;
-    left: 63vw;
+    top: -0.9vh;
+    left: 65vw;
+}
+
+.hora p{
+    width: 20vw;
+}
+
+.dia p{
+    width: 20vw;
 }
 
 .dia input{
@@ -92,7 +102,7 @@ body{
     text-align: center; 
 }
 
-.botao-confirmar{
+.confirmar{
     font-size: 3vh;
     font-family: "Alef", sans-serif;
     font-weight: 400;
@@ -112,5 +122,5 @@ body{
 
     background: #BEF202;
     border-radius: 30px;
-
+    
 }
