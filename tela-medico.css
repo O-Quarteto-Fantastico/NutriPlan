@@ -6,7 +6,7 @@
 body{
     box-sizing: border-box;
     margin: 0;
-    border-width: 60px;
+    border-width: 6vh;
     border-style: solid;
     border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
     height: 100vh;
@@ -14,12 +14,12 @@ body{
 }
 
 .logo img{
-    width: 100px;
-    height: 50px;
+    width: 10vh;
+    height: 5vh;
     border-radius: 50px;
     position: absolute;
-    top:4px;
-    left: 60px;
+    top:0.5vh;
+    left: 6vh;
 }
 
 .info1{
@@ -28,27 +28,27 @@ body{
     border-style: solid;
     border-top: transparent;
     border-left: transparent;
-    width: 300px;
-    height: 360px;
+    width: 31.5vh;
+    height: 38.4vh;
     border-bottom: transparent;
     font-family: Arial;
 }
 
 .info1 img{
-    width: 130px;
-    height: 130px;
+    width: 13vh;
+    height: 13vh;
     border-radius: 50%;
     position: absolute;
-    left: 145px;
-    top: 90px
+    left: 15vh;
+    top: 9vh;
 }
 
 .info1 p{
     text-align: center;
     position: relative;
-    top: 200px;
-    font-size: 20px;
-    padding: 5px;
+    top: 20vh;
+    font-size: 2vh;
+    padding: 1vh;
 }
 
 .info2{
@@ -57,28 +57,28 @@ body{
     border-style: solid;
     border-left: transparent;
     border-bottom: transparent;
-    width: 300px;
-    height: 474px;
+    width: 31.5vh;
+    height: 49.6vh;
     font-family: Arial;
 }
 
 .info2 p{
     text-align: center;
     position: relative;
-    top: 50px;
-    font-size: 20px;
-    padding: 15px;
+    top: 5vh;
+    font-size: 2vh;
+    padding: 2vh;
 }
 
 .ultimospacientes{
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
     border: 3px solid #000;
     background-color: #BEF202;
     border-radius: 50%;
     position: absolute;
-    bottom: 130px;
-    left: 160px;
+    bottom: 13vh;
+    left: 16vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -91,69 +91,69 @@ body{
 
 .consultas p{
     position: absolute;
-    top: 100px;
-    right: 630px;
-    font-size: 50px;
+    top: 10vh;
+    right: 65vh;
+    font-size: 6vh;
     font-weight: bold;
     font-family: Arial;
 }
 
 .tabela{
-    width: 1000px;
-    height: 550px;
+    width: 100vh;
+    height: 58vh;
     position: absolute;
-    top: 250px;
-    right: 300px;
+    top: 25vh;
+    right: 34vh;
     background-color: #F4F4F4;
 }
 
 .entrada{
-    width: 150px;
-    height: 50px;
+    width: 16vh;
+    height: 5.2vh;
     background-color: #BEF202;
     position: absolute;
-    top: -50px;
+    top: -5.2vh;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
 
 .entrada p{
-    font-size: 20px;
-    left: 35px;
-    top: 15px;
+    font-size: 2vh;
+    left: 3.5vh;
+    top: 1.5vh;
 }
 
 .saida{
-    width: 150px;
-    height: 50px;
+    width: 16vh;
+    height: 5.2vh;
     background-color: #BEF202;
     position: absolute;
-    top: -50px;
-    left: 155px;
+    top: -5.2vh;
+    left: 16vh;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
 
 .saida p{
-    font-size: 20px;
-    left: 42px;
-    top: 15px;
+    font-size: 2vh;
+    left: 4.2vh;
+    top: 1.5vh;
 }
 
 .info3 p{
-    font-size: 25px;
+    font-size: 2.6vh;
     font-weight: normal;
     position: relative;
-    right: 0px;
-    top: 0px;
-    padding: 10px;
+    right: 0vh;
+    top: 0vh;
+    padding: 1.1vh;
     border-bottom: 1px solid black;
 }
 
 .sair img{
-    width: 50px;
-    height: 50px;
+    width: 5vh;
+    height: 5vh;
     position: absolute;
-    right: 5px;
-    bottom: 55px;
+    right: 0.5vh;
+    bottom: 5.5vh;
 }

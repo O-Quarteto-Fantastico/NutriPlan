@@ -180,7 +180,6 @@ input[type=checkbox] + label:before {
 
 input[type=checkbox]:checked + label:before {
     color: #FFF;
-
 }
 
 label p{
