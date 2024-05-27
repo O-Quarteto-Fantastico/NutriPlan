@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" href="pagamento-ato.css">
+    <link rel="stylesheet" href="tela-convenio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
@@ -17,7 +17,6 @@
     <h2 class="frase-destaque">Insira aqui os seus dados:</h2>
     <div class="confirmar"><p><strong>Confrimar</strong></p></div>
     <div class="divisoria"></div>
-    <div class="pix"><p>celular (11)99999-9999</p></div>
     <div class="logo"><img src="Logo -Print (1).png" alt=""></div>
     <div class="botao-voltar"><img src="SETA- print (1).png" alt=""></div>
     <div class="observacao"><p>Obs: A consulta só será confirmada se <strong>todos</strong> os <br>
@@ -26,16 +25,16 @@
 
     <div class="infos-cadastro">
         <form method="get" autocomplete="on">
-            <label for="e-mail">Tipo de pagamento</label><br>
-            <input type="email" placeholder="Selecione o pagamento" name="e-mail" autocomplete="email" required><br><br>
-            <label for="numero">Número do cartão</label><br>
-            <input type="number" placeholder="Número impresso no cartão" name="celular" autocomplete="tel" pattern="^\(\d{2}\)\d{5}-\d{4}$" minlength="0" maxlength="11" required><br><br>
-            <label for="codigo">CVV</label><br>
-            <input type="number" placeholder="Código de segurança" name="codigo-de-seguranca" required><br><br>
-            <label for="validade">Data de Validade</label><br>
-            <input type="number" placeholder="Confirme a senha" name="validade" required><br><br>
-            <label for="">Nossa chave pix</label><br>
-        
+            <label for="convenio">Tipo do convênio</label><br>
+            <input type="email" placeholder="Qual o seu convênio" name="e-mail" autocomplete="email" required><br><br>
+            <label for="id">Número da carteirinha</label><br>
+            <input type="number" placeholder="id da carteirinha" name="celular" autocomplete="tel" pattern="^\(\d{2}\)\d{5}-\d{4}$" minlength="0" maxlength="11" required><br><br>
+            <label for="idade">Idade</label><br>
+            <input type="number" placeholder="Digite uma senha" name="senha" required><br><br>
+            <label for="Nome">Nome completo</label><br>
+            <input type="text" placeholder="Seu nome" name="confirmar-senha" required><br><br>
+            <label for="CPF">CPF</label><br>
+            <input type="number" placeholder="Insira Seu CPF" name="confirmar-senha" required><br><br>
         </form>
 
         <script>

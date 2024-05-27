@@ -31,13 +31,13 @@
 
  .botao-voltar{
     position: relative;
-    top: -104.5vh;
+    top: -97.5vh;
     right: 2.2vw;
  }
   
   .infos-cadastro {
     width: 30vw;
-    height: 15vh;
+    height: 19vh;
     position: absolute;
     left: 9vw;
     top: 26.5vh;
@@ -103,25 +103,6 @@
     position: relative;
     left: 46.5vw;
     top: -8.5vh;
-}
-
-.pix{
-    border-radius: 10px;
-    background: #d9d9d9;
-    padding: 10px;
-    width: 30vw;
-    height: 5vh;
-    border: none;
-    position: relative;
-    top: -26.65vh;
-    left: 5.8vw;
-}
-
-.pix p{
-  font-size: 1.2vw;
-  position: relative;
-  top: 0.7vh;
-
 }
 
 .observacao{
