@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top:4px;
+    left: 60px;
+}
+
+.info1{
+    box-sizing: border-box;
+    margin: 0;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    width: 350px;
+    height: 360px;
+    border-bottom: transparent;
+    font-family: Arial;
+}
+
+.info1 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 168px;
+    top: 90px
+}
+
+.info1 p{
+    position: relative;
+    top: 200px;
+    left: 25px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.info2{
+    box-sizing: border-box;
+    margin: 0;
+    border-style: solid;
+    border-left: transparent;
+    border-bottom: transparent;
+    width: 350px;
+    height: 440px;
+    font-family: Arial;
+}
+
+.info2 p{
+    position: relative;
+    top: 50px;
+    left: 25px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.sistema{
+    color: #5E9E54;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.tabela p{
+    position: absolute;
+    top: 100px;
+    right: 630px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.tabela{
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: 180px;
+    right: 300px;
+    background-color: #F4F4F4;
+}
+
+.entrada{ 
+    padding: 1vh 2vh;
+    background-color: #BEF202;
+    position: absolute;
+    top: -6vh;
+    left: 0vw;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.saida{
+    padding: 1vh 3.3vh;
+    background-color: #BEF202;
+    position: absolute;
+    top: -6vh;
+    left: 8.5vw;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.info3{
+    font-size: 25px;  
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+.info3 p{
+    font-size: 25px;
+    font-weight: normal;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.salvar{
+    position: absolute;
+    width: 265px;
+    height: 85px;
+    right: 150px;
+    bottom: 100px;
+    background: #BEF202;
+    border-radius: 100px;
+}
+
+.salvar p{
+    font-family: Arial;
+    font-weight: bold;
+    position: relative;
+    font-size: 30px;
+    left: 90px;
+    top: 27px;
+}
+
+.salvar:hover{
+    border: 3px solid #000;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.sair img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    bottom: 55px;
+}
+
+.menu{
+    position: absolute;
+    top:90px;
+    right: 90px;
+}
+
+.barras{
+    width: 50px;
+    height: 15px;
+    position: relative;
+    background-color: #000;
+    border-radius: 100px;
+}
+
+.barras::before, .barras::after{
+    content: "";
+    width: 50px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 100px;
+    position: absolute;
+    top:34px;
+}
+
+.barras::after{
+    content: "";
+    top:17px
+}
+
+.circulos{
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 100%;
+    position: relative;
+    left: -20px;
+    top:-15px;
+}
+
+.circulos::before, .circulos::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 100%;
+    position: absolute;
+    top: 34px;
+}
+
+.circulos::after{
+    content: "";
+    top: 17px;
+}
