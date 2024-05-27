@@ -9,7 +9,7 @@ body{
     border-width: 60px;
     border-style: solid;
     border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
-    height: 443vh;
+    height: 446.2vh;
     width: 99vw;
 
     font-family: "Alef", sans-serif;
@@ -200,6 +200,17 @@ body{
     border-radius: 30px;
 }
 
+.voltar-ao-topo a{
+    font-size: 1.5vw;
+    color: #0E87BB;
+}
+
+.voltar-ao-topo p{
+    text-align: center;
+    position: relative;
+    top: 380vh;
+}
+
 .imagem-1 img{
     width:22vw ;
     position: relative;
@@ -236,7 +247,7 @@ body{
 .imagem-5 img{
     width: 22vw;
     position: relative;
-    top: -70vh;
+    top: -70.1vh;
     left: 4vw;
     border-radius: 60px; 
 }

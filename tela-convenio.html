@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <title>Seu Convênio</title>
     <link rel="stylesheet" href="tela-convenio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +25,14 @@
 
     <div class="infos-cadastro">
         <form method="get" autocomplete="on">
-            <label for="convenio">Tipo do convênio</label><br>
-            <input type="email" placeholder="Qual o seu convênio" name="e-mail" autocomplete="email" required><br><br>
+            <label for="pagamento">Tipo de Convênio</label>
+            <select name="" id="pagamento">
+                <option value="">Amil</option>
+                <option value="">Bradesco</option>
+                <option value="">Unimed</option>
+                <option value="">Porto</option>
+            </select><br><br>
+
             <label for="id">Número da carteirinha</label><br>
             <input type="number" placeholder="id da carteirinha" name="celular" autocomplete="tel" pattern="^\(\d{2}\)\d{5}-\d{4}$" minlength="0" maxlength="11" required><br><br>
             <label for="idade">Idade</label><br>

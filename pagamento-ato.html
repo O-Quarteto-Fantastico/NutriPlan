@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <title>Escolha o pagamento</title>
     <link rel="stylesheet" href="pagamento-ato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,11 +23,15 @@
     <div class="observacao"><p>Obs: A consulta só será confirmada se <strong>todos</strong> os <br>
          dados estiverem corretos. Pode demorar até 3 <br>
           minutos para sua consulta ser confirmada. </p></div>
-
+    <div class="convenio"><a href="">Pagar com o convênio</a></div>
     <div class="infos-cadastro">
         <form method="get" autocomplete="on">
-            <label for="e-mail">Tipo de pagamento</label><br>
-            <input type="email" placeholder="Selecione o pagamento" name="e-mail" autocomplete="email" required><br><br>
+            <label for="pagamento">Tipo de Pagamento</label>
+            <select name="" id="pagamento">
+                <option value="">Débito</option>
+                <option value="">Crédito</option>
+                <option value="">Pix</option>
+            </select><br><br>
             <label for="numero">Número do cartão</label><br>
             <input type="number" placeholder="Número impresso no cartão" name="celular" autocomplete="tel" pattern="^\(\d{2}\)\d{5}-\d{4}$" minlength="0" maxlength="11" required><br><br>
             <label for="codigo">CVV</label><br>
