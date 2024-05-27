@@ -124,5 +124,15 @@ body{
 
     background: #BEF202;
     border-radius: 30px;
-    
+}
+
+.confirmar:hover{
+    border: 3px solid #000;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.voltar img{
+    position: relative;
+    top: -67.5vh;
+    right: 1vw;
 }

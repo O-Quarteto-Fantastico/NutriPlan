@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(fundo-tela-pagamento.jfif);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-position: center;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Alef", sans-serif;
+    font-weight: 1900;
+    font-style: normal;
+}
+
+.logo img{
+    width: 6.5vw;
+    border-radius: 50px;
+    position: absolute;
+    top:-1.5vh;
+    left: 8vw;
+}
+
+.info p{
+    font-size: 1.5vw;
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    top: 12vh;
+}
+
+.confirmar{
+    width: 20vw;
+    height: 9vh;
+    border-radius: 30px;
+    background-color: #BEF202;
+    position: absolute;
+    left: 40vw;
+    bottom:20vh
+}
+
+.confirmar p{
+    font-size: 1.4vw;
+    text-align: center;
+    position: relative;
+    top:2.5vh;
+    font-family: "Alef", sans-serif;
+    font-weight: 510;
+    font-style: normal;
+    font-family: "Alef", sans-serif;
+    font-weight: 1900;
+    font-style: normal;
+}
+
+.confirmar:hover{
+    border: 3px solid #000;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.voltar img{
+    position: absolute;
+    top: 7vh;
+    left: 2vw;
+}
