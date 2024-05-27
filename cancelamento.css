@@ -18,16 +18,17 @@ body{
     top: 7vh;
     left: 42.5vw;
     width: 15vw;
-  }
+}
 
-.barra-verde{
+.barra-vermelha{
     position: absolute;
     width: 60vw;
     height: 15vh;
     left: 20.5vw;
     top: 45vh;
-    background: rgba(76, 190, 58, 0.44); 
+    background: rgba(244, 0, 0, 0.61);
     border-radius: 99px;
+
 }
 
 .Frase-1{
@@ -36,27 +37,29 @@ body{
     font-style: normal;
     position: absolute;
     top: 50vh;
-    left: 28vw;
+    left: 38.5vw;
     font-size: 4vh;
     width: 50vw;
 }
 
 .Frase-2{
     font-family: "Alef", sans-serif;
+    font-weight: 480px;
     font-style: normal;
     position: absolute;
     top: 62vh;
-    left: 40.5vw;
+    left: 33vw;
     font-size: 1.4vw;
-    width: 20vw;
+    width: 37vw;
 }
 
 .Frase-3{
     font-family: "Alef", sans-serif;
+    font-weight: 480px;
     font-style: normal;
     position: absolute;
     top: 80vh;
-    left: 25.5vw;
+    left: 30.5vw;
     font-size: 1.5vw;
     width: 60vw;
 }
@@ -70,6 +73,6 @@ body{
 
 .voltar{
     position: absolute;
-    top: 10vh;
-    left: 5vw;
+    top: 8vh;
+    left: 3.5vw;
 }
