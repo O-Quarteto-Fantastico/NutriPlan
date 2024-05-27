@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+  }
+
+.imagem{
+    position: absolute;
+    top: 7vh;
+    left: 42.5vw;
+    width: 15vw;
+  }
+
+.barra-verde{
+    position: absolute;
+    width: 60vw;
+    height: 15vh;
+    left: 20.5vw;
+    top: 45vh;
+    background: rgba(76, 190, 58, 0.44); 
+    border-radius: 99px;
+}
+
+.Frase-1{
+    font-family: "Alef", sans-serif;
+    font-weight: 480px;
+    font-style: normal;
+    position: absolute;
+    top: 50vh;
+    left: 28vw;
+    font-size: 4vh;
+    width: 50vw;
+}
+
+.Frase-2{
+    font-family: "Alef", sans-serif;
+    font-style: normal;
+    position: absolute;
+    top: 62vh;
+    left: 40.5vw;
+    font-size: 1.4vw;
+    width: 20vw;
+}
+
+.Frase-3{
+    font-family: "Alef", sans-serif;
+    font-style: normal;
+    position: absolute;
+    top: 80vh;
+    left: 25.5vw;
+    font-size: 1.5vw;
+    width: 60vw;
+}
+
+.Logo{
+    width: 7.5vw;
+    position: absolute;
+    top: -2.5vh;
+    left: 8.5vw;
+}
+
+.voltar{
+    position: absolute;
+    top: 10vh;
+    left: 5.5vw;
+}
