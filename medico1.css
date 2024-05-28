@@ -80,20 +80,20 @@ body{
 }
 
 .confirmar{
-    width: 20vw;
-    height: 5vh;
-    border-radius: 100px;
-    background-color: #BEF202;
     position: absolute;
     bottom: -30vh;
-    left: 39vw;
+    left: 41.5vw;
     text-align: center;
 }
 
-.confirmar p{
+.confirmar a{
+    font-family: "Alef";
     font-size: 1.4vw;
-    position: relative;
-    top: 0.8vh;
+    background-color: #BEF202;
+    padding: 1vh 9vh;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
 }
 
 .dia{

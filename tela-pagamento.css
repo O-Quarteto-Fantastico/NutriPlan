@@ -18,12 +18,10 @@ body{
 }
 
 .logo img{
-    width: 10vh;
-    height: 5vh;
-    border-radius: 50px;
+    width: 12.5vh;
     position: absolute;
-    top:0.5vh;
-    left: 6vh;
+    top: -1.5vh;
+    left: 9vw;
 }
 
 .info p{
@@ -36,26 +34,19 @@ body{
 }
 
 .confirmar{
-    width: 20vw;
-    height: 6vh;
-    border-radius: 100px;
-    background-color: #BEF202;
     position: absolute;
-    left: 40vw;
+    left: 38vw;
     bottom:20vh
 }
 
-.confirmar p{
-    font-size: 1.4vw;
+.confirmar a{
     font-family: "Alef";
-    text-align: center;
-    position: relative;
-    top:1vh
-}
-
-.confirmar:hover{
-    border: 3px solid #000;
-    box-shadow: 0px 0px 40px #000;
+    font-size: 1.4vw;
+    background-color: #BEF202;
+    padding: 2vh 10vh;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
 }
 
 .voltar img{
