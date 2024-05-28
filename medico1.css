@@ -18,10 +18,10 @@ body{
 }
 
 .voltar img{
-    width: 3.5vw;
+    width: 8vw;
     position: absolute;
     top: 8vh;
-    left: 4vw;
+    left: 3vw;
 }
 
 .medico img{

@@ -59,8 +59,8 @@ body{
 }
 
 .voltar img{
-    width: 4vw;
+    width: 8vw;
     position: absolute;
-    top: 10vh;
-    left: 5vw;
+    top: 8vh;
+    left: 3vw;
 }
