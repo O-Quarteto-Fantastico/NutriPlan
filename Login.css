@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+body{
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img {
+    width: 35vw;
+    position: absolute;
+    left: 11vw;
+    top: 20vh;
+}
+
+.voltar {
+    position: relative;
+    top: 1vh;
+    right: 1vw;
+}
+
+.login{
+    position: absolute;
+    left: 67vw;
+    top: 31vh;
+}
+
+.infos-login {
+    width: 30vw;
+    height: 15vh;
+    position: absolute;
+    left: 54vw;
+    top: 35vh;
+}
+.infos-login input {
+    border-radius: 10px;
+    background: #d9d9d9;
+    padding: 10px;
+    width: 30vw;
+    height: 5vh;
+    border: none;
+}
+
+.infos-login a {
+    width: 10vw;
+    position: absolute;
+    left: 23.5vw;
+}
+
+.btn {
+    background-color: #28A9E0;
+    color: #ffffff;
+    border: none;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.btn-enviar {
+    position: absolute;
+    left: 62vw;
+    top: 60vh;
+}
+
+.criar-conta {
+    width: 15vw;
+    position: absolute;
+    left: 62.5vw;
+    top: 65vh
+}
+
+.logo-de-cima img {
+    width: 6.3vw;
+    position: absolute;
+    left: 9vw;
+    top: -1.5vh;
+  }
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus:-moz-placeholder { /* Firefox 18- */
+color: transparent;
+}
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+color: transparent;
+}
+input:focus:-ms-input-placeholder {  
+color: transparent;
+}
