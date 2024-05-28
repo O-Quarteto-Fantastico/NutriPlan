@@ -28,7 +28,7 @@ body{
     border-style: solid;
     border-top: transparent;
     border-left: transparent;
-    width: 31.5vh;
+    width: 40vh;
     height: 38.4vh;
     border-bottom: transparent;
     font-family: Arial;
@@ -39,7 +39,7 @@ body{
     height: 13vh;
     border-radius: 50%;
     position: absolute;
-    left: 15vh;
+    left: 19vh;
     top: 9vh;
 }
 
@@ -47,7 +47,7 @@ body{
     text-align: center;
     position: relative;
     top: 20vh;
-    font-size: 2vh;
+    font-size: 2.5vh;
     padding: 1vh;
 }
 
@@ -57,7 +57,7 @@ body{
     border-style: solid;
     border-left: transparent;
     border-bottom: transparent;
-    width: 31.5vh;
+    width: 40vh;
     height: 49.6vh;
     font-family: Arial;
 }
@@ -66,7 +66,7 @@ body{
     text-align: center;
     position: relative;
     top: 5vh;
-    font-size: 2vh;
+    font-size: 2.5vh;
     padding: 2vh;
 }
 
@@ -78,7 +78,7 @@ body{
     border-radius: 50%;
     position: absolute;
     bottom: 13vh;
-    left: 16vh;
+    left: 21vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -148,6 +148,27 @@ body{
     top: 0vh;
     padding: 1.1vh;
     border-bottom: 1px solid black;
+}
+
+.notificação button{
+    cursor: pointer;
+}
+
+.notificação img{
+    width: 6vh;
+    height: 6vh;
+    position: absolute;
+    right: 0.5vh;
+    top: 5.5vh;
+}
+
+.aba-notificação img{
+    width: 30vh;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    left: 165vh;
+    top: 6vh;
 }
 
 .sair img{

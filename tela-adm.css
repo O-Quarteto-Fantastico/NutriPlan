@@ -28,7 +28,7 @@ body{
     border-style: solid;
     border-top: transparent;
     border-left: transparent;
-    width: 36.7vh;
+    width: 40vh;
     height: 38.4vh;
     border-bottom: transparent;
     font-family: Arial;
@@ -39,15 +39,15 @@ body{
     height: 13vh;
     border-radius: 50%;
     position: absolute;
-    left: 17vh;
+    left: 19vh;
     top: 9vh;
 }
 
 .info1 p{
     position: relative;
     top: 20vh;
-    left: 2.5vh;
-    font-size: 2vh;
+    left: 0.5vh;
+    font-size: 2.5vh;
     padding: 1vh;
 }
 
@@ -57,7 +57,7 @@ body{
     border-style: solid;
     border-left: transparent;
     border-bottom: transparent;
-    width: 36.7vh;
+    width: 40vh;
     height: 49.7vh;
     font-family: Arial;
 }
@@ -65,8 +65,8 @@ body{
 .info2 p{
     position: relative;
     top: 5vh;
-    left: 2.5vh;
-    font-size: 2vh;
+    left: 0.5vh;
+    font-size: 2.5vh;
     padding: 2vh;
 }
 
@@ -74,8 +74,8 @@ body{
     color: #5E9E54;
     position: relative;
     top: 5vh;
-    left: 2.5vh;
-    font-size: 2vh;
+    left: 0.5vh;
+    font-size: 2.5vh;
     padding: 2vh;
 }
 
@@ -149,10 +149,10 @@ body{
 
 .salvar{
     position: absolute;
-    width: 265px;
-    height: 85px;
-    right: 150px;
-    bottom: 100px;
+    width: 26.5vh;
+    height: 8.5vh;
+    right: 15vh;
+    bottom: 10vh;
     background: #BEF202;
     border-radius: 100px;
 }
@@ -161,9 +161,9 @@ body{
     font-family: Arial;
     font-weight: bold;
     position: relative;
-    font-size: 30px;
-    left: 90px;
-    top: 27px;
+    font-size: 3vh;
+    left: 9vh;
+    top: 2.6vh;
 }
 
 .salvar:hover{
@@ -172,63 +172,22 @@ body{
 }
 
 .sair img{
-    width: 50px;
-    height: 50px;
+    width: 5vh;
+    height: 5vh;
     position: absolute;
-    right: 5px;
-    bottom: 55px;
+    right: 0.5vh;
+    bottom: 5.5vh;
 }
 
-.menu{
+.addmedico{
     position: absolute;
-    top:90px;
-    right: 90px;
+    bottom: 13vh;
+    right: 70vh;
+    font-size: 3vh;
+    font-family: "Inter";
 }
 
-.barras{
-    width: 50px;
-    height: 15px;
-    position: relative;
-    background-color: #000;
-    border-radius: 100px;
-}
-
-.barras::before, .barras::after{
-    content: "";
-    width: 50px;
-    height: 15px;
-    background-color: #000;
-    border-radius: 100px;
-    position: absolute;
-    top:34px;
-}
-
-.barras::after{
-    content: "";
-    top:17px
-}
-
-.circulos{
-    width: 15px;
-    height: 15px;
-    background-color: #000;
-    border-radius: 100%;
-    position: relative;
-    left: -20px;
-    top:-15px;
-}
-
-.circulos::before, .circulos::after{
-    content: "";
-    width: 15px;
-    height: 15px;
-    background-color: #000;
-    border-radius: 100%;
-    position: absolute;
-    top: 34px;
-}
-
-.circulos::after{
-    content: "";
-    top: 17px;
+.addmedico a{
+    text-decoration: none;
+    color: #5E9E54;
 }
