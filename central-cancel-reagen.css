@@ -58,10 +58,11 @@ input {
     left: 10.35vw;
     top: 10vh;
 }
-#botao-reagendar {
-    width: 20vw;
-    height: 4vw;
+#reagendar {
+    padding: 2.7vh 15.6vh;
     background-color: #BEF202;
+    text-decoration: none;
+    color: #000;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -70,10 +71,11 @@ input {
     left: 16vw;
     top: 70vh;
 }
-#botao-cancelar {
-    width: 20vw ;
-    height: 4vw;
+#cancelar {
+    padding: 2.7vh 8vh;
     background-color: #F40000;
+    text-decoration: none;
+    color: #000;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -104,15 +106,14 @@ input {
     top: 15vh;
 }
 #home-botao {
-    width: 50px;
+    width: 5vh;
+    height: 5vh;
     position: absolute;
-    left: 97vw;
-    top: 88.6vh;
+    right: 0.5vh;
+    bottom: 6vh;
 }
 #voltar {
-    display: flex;
-    justify-content: end;
     position: absolute;
-    left: 92vw;
-    top: 10vh;
+    left: 88.5vw;
+    top: 6.5vh;
 }  
