@@ -24,11 +24,12 @@ body{
 }
 
 .voltar {
-    display: flex;
-    justify-content: end;
+    position: relative;
+    top: 1vh;
+    right: 1vw;
 }
 
-.login{
+.frase-destaque{
     position: absolute;
     left: 67vw;
     top: 31vh;
@@ -46,7 +47,7 @@ body{
     background: #d9d9d9;
     padding: 10px;
     width: 30vw;
-    height: 3vh;
+    height: 5vh;
     border: none;
 }
 
@@ -63,20 +64,28 @@ body{
     width: 15vw;
     height: 5vh;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn-enviar {
     position: absolute;
     left: 62vw;
-    top: 57vh;
+    top: 60vh;
 }
 
 .criar-conta {
     width: 15vw;
     position: absolute;
     left: 62.5vw;
-    top: 62vh
+    top: 65vh
 }
+
+.logo-de-cima img {
+    width: 6.3vw;
+    position: absolute;
+    left: 9vw;
+    top: -1.5vh;
+  }
 
 input:focus::-webkit-input-placeholder {
     color: transparent;

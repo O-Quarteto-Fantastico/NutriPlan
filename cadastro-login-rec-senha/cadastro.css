@@ -20,7 +20,7 @@ body{
   width: 35vw;
   position: absolute;
   left: 53vw;
-  top: 20vh;
+  top: 21.3vh;
 }
 
 .frase-destaque{
@@ -41,7 +41,7 @@ body{
   background: #d9d9d9;
   padding: 10px;
   width: 30vw;
-  height: 3vh;
+  height: 5vh;
   border: none;
 }
 
@@ -52,19 +52,33 @@ body{
   width: 15vw;
   height: 5vh;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-criar {
   position: absolute;
   left: 23.5vw;
-  top: 67vh;
+  top: 76vh;
 }
 
 .faca-login {
   width: 13vw;
   position: absolute;
   left: 25vw;
-  top: 72vh;
+  top: 72.5vh;
+}
+
+.voltar img{
+  position: relative;
+  right: 1vw ;
+  top: 1vh;
+}
+
+.logo-de-cima img {
+  width: 6.3vw;
+  position: absolute;
+  left: 9vw;
+  top: -1.5vh;
 }
 
 input:focus::-webkit-input-placeholder {

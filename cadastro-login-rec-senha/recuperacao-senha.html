@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recupere sua senha</title>
-    <link rel="stylesheet" href="./recuperacao-senha.css">
+    <link rel="stylesheet" href="recuperacao-senha.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
@@ -12,6 +12,10 @@
 <body>
     <div class="logo">
         <img src="./imagens/logo-nutri-plan.png" alt="">
+    </div>
+
+    <div class="logo-de-cima">
+        <img src="./imagens/mini-logo.png" alt="">
     </div>
 
     <div class="voltar">
@@ -23,11 +27,11 @@
     <div class="infos-recuperacao">
         <form>
             <label for="e-mail">E-mail</label><br>
-            <input type="email" placeholder="Digite o e-mail cadastrado" autocomplete="email" required><br><br>
+            <input type="email" placeholder="Digite o e-mail cadastrado" autocomplete="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
         </form>
     </div>
     <div class="btn-criar">
-        <a href="./recuperacao-senha-2.html"><button class="btn">Solicitar Código</button></a>
+        <a href="./recuperacao-senha-2.html"><button class="btn"><font size="4">Solicitar Código</font></button></a>
     </div>
 </body>
 </html>
