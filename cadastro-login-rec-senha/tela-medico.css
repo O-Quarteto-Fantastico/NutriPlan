@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+  
+  body{
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .perfil img{
+    position: relative;
+    left: 4vw ;
+    top: 1vh;
+    width: 9vw;
+  }
+
+  .outros-perfis {
+    position: relative;
+    top: 47vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .outros-perfis img{
+    background-color: #d9d9d9;
+    width: 6vw;
+  }
+  
+  .nome-paciente{
+    position: absolute;
+    left: 17vw;
+    top: 12vh;
+    font-size:x-large;
+  }
+
+  .idade-paciente{
+    position: absolute;
+    left: 17vw;
+    top: 15vh;
+    font-size: large;
+  }
+  
+  .quadros {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-cvn-ptc {
+    position: absolute;
+    left: 17vw;
+    top: 18vh;
+  }
+
+  .btn-1 {
+    background-color: #BEF202;
+    color: #000000;
+    border: none;
+    width: 4vw;
+    height: 2vh;
+    cursor: pointer;
+  }
+
+  .btn-2:enabled {
+    background-color: #28A9E0;
+    color: #000000;
+    border: none;
+    width: 4vw;
+    height: 2vh;
+    cursor: pointer;
+  }
+
+  /* disabled e enabled ou active para particular e convenio */
+
+
+    /* part/conv
+
+position: absolute;
+width: 191px;
+height: 16.11px;
+left: 290px;
+top: 193px;
+     */
+
+
+  
+  .logo-de-cima img {
+    width: 6.3vw;
+    position: absolute;
+    left: 9vw;
+    top: -1.5vh;
+  }
