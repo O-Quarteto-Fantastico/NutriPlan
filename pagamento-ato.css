@@ -178,4 +178,5 @@
     cursor: pointer;
     top: 34vh;
     left: 31.5vw;
+    z-index: 2;
   }

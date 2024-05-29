@@ -85,7 +85,7 @@ input {
 }
 #barra-div-meio {
     box-sizing: border-box;
-    border: 0.5vw solid #000;
+    border: 0.2vw solid #000;
     border-top: transparent;
     border-bottom: transparent;
     border-left: transparent;
