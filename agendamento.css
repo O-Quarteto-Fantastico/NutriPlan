@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 451vh;
+    width: 99vw;
+
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.palavra-1{
+    font-size: 72px;
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+}
+      
+.frase-1{
+    font-size: 28px;
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Alef", sans-serif;
+    font-weight: 1900;
+    font-style: normal;
+    position: relative;
+    left: 2.1vw;
+    top: 1vh;
+}
+
+.botao{
+    position: relative;
+    right:1.2vw;
+    top: 1vh;
+}
+
+
+.primeiro-doutor{
+    width: 52vw;
+    font-size: 3vh;
+    position: relative;
+    left: 36vw;
+    top: 19vh;
+}
+
+.botao-doutor-1{
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh ;
+    position: relative;
+    width: 18vw;
+    height: 6vh;
+    left: 47vw;
+    top: 21vh;
+}
+
+.botao-doutor-1 a{
+    font-family: "Alef";
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    background-color: #D9D9D9;
+    padding: 4.2vh 13vh;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.segundo-doutor{
+    width: 52vw;
+    font-size: 3vh;
+    position: relative;
+    left: 36vw;
+    top: 48vh;
+}
+
+
+.botao-doutor-2{
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh ;
+    position: relative;
+    width: 18vw;
+    height: 6vh;
+    left: 47vw;
+    top: 50vh;
+}
+
+.botao-doutor-2 a{
+    font-family: "Alef";
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    background-color: #D9D9D9;
+    padding: 4.2vh 13vh;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.terceiro-doutor{
+    width: 52vw;
+    font-size: 3vh;
+    position: relative;
+    left: 36vw;
+    top: 75vh;
+}
+
+.botao-doutor-3{
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh ;
+    position: relative;
+    width: 18vw;
+    height: 6vh;
+    left: 47vw;
+    top: 77vh;
+}
+
+.botao-doutor-3 a{
+    font-family: "Alef";
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    background-color: #D9D9D9;
+    padding: 4.2vh 13vh;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.quarto-doutor{
+    width: 52vw;
+    font-size: 3vh;
+    position: relative;
+    left: 36vw;
+    top: 108vh;  
+}
+
+.botao-doutor-4{
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh ;
+    position: relative;
+    width: 18vw;
+    height: 6vh;
+    left: 10.95vw;
+    top: 2vh;
+}
+
+.botao-doutor-4 a{
+    font-family: "Alef";
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    background-color: #D9D9D9;
+    padding: 4.2vh 13vh;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.quinto-doutor{
+    width: 52vw;
+    font-size: 3vh;
+    position: relative;
+    left: 36vw;
+    top: 142vh;  
+}
+ 
+.botao-doutor-5{
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh ;
+    position: relative;
+    width: 18vw;
+    height: 6vh;
+    left: 10.95vw;
+    top: 2vh;
+}
+
+.botao-doutor-5 a{
+    font-family: "Alef";
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    background-color: #D9D9D9;
+    padding: 4.2vh 13vh;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sexto-doutor{
+    width: 52vw;
+    font-size: 3vh;
+    position: relative;
+    left: 36vw;
+    top: 177vh;  
+}
+
+.botao-doutor-6{
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh ;
+    position: relative;
+    width: 18vw;
+    height: 6vh;
+    left: 10.95vw;
+    top: 2vh;
+}
+
+.botao-doutor-6 a{
+    font-family: "Alef";
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    background-color: #D9D9D9;
+    padding: 4.2vh 13vh;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.voltar-ao-topo a{
+    font-size: 1.5vw;
+    color: #0E87BB;
+}
+
+.voltar-ao-topo p{
+    text-align: center;
+    position: relative;
+    top: 382vh;
+}
+
+.imagem-1 img{
+    width:22vw ;
+    position: relative;
+    top: -153vh;
+    left: 4vw;
+    border-radius: 60px;
+}
+
+.imagem-2 img{
+    width: 22vw;
+    position: relative;
+    top: -133vh;
+    left: 4vw;
+    border-radius: 60px; 
+}
+
+
+.imagem-3 img{
+    width: 22vw;
+    position: relative;
+    top: -112vh;
+    left: 4vw;
+    border-radius: 60px;  
+}
+
+.imagem-4 img{
+    width: 22vw;
+    position: relative;
+    top: -91vh;
+    left: 4vw;
+    border-radius: 60px; 
+}
+
+.imagem-5 img{
+    width: 22vw;
+    position: relative;
+    top: -70.1vh;
+    left: 4vw;
+    border-radius: 60px; 
+}
+
+.imagem-6 img{
+    width: 22vw;
+    position: relative;
+    top: -49vh;
+    left: 4vw;
+    border-radius: 60px; 
+}

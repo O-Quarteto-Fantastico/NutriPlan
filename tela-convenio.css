@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+  
+  body{
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .logo img {
+    width: 6.3vw;
+    position: absolute;
+    left: 9vw;
+    top: -1.5vh;
+  }
+  
+  .frase-destaque{
+    position: absolute;
+    left: 8.6vw;
+    top: 18vh; 
+  }
+  
+  .botao-voltar{
+    position: relative;
+    top: -95.5vh;
+    right: 1.5vw;
+  }
+  
+  .infos-cadastro {
+    width: 30vw;
+    height: 15vh;
+    position: absolute;
+    left: 9vw;
+    top: 26.5vh;
+  }
+  .infos-cadastro input {
+    border-radius: 10px;
+    background: #d9d9d9;
+    padding: 10px;
+    width: 30vw;
+    height: 5vh;
+    border: none;
+  }
+  
+  .btn {
+    background-color: #28A9E0;
+    color: #ffffff;
+    border: none;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+  }
+  
+  .btn-criar {
+    position: absolute;
+    left: 16.3vw;
+    top: 73.5vh;
+  }
+  
+  .faca-login {
+    width: 13vw;
+    position: absolute;
+    left: 20vw;
+    top: 79vh;
+  }
+  
+  .confirmar{
+        font-size: 3vh;
+        font-family: "Alef", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Alef", sans-serif;
+        font-weight: 1900;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5vh ;
+        position: relative;
+        width: 18vw;
+        height: 6vh;
+        left: 62vw;
+        top: 40.5vh;
+    }
+
+    .confirmar a{
+        display: flex;
+        align-items: center;
+        font-family: "Alef";
+        font-size: 1.4vw;
+        background-color: #BEF202;
+        padding: 4vh 9vh;
+        border-radius: 50px;
+        text-decoration: none;
+        color: #000;
+    }
+  
+  .divisoria{
+    width: 0.01vw;
+    height: 86.4vh;
+    background-color: #d9d9d9;
+    border: 5px solid #d9d9d9;
+    position: relative;
+    left: 46.5vw;
+    top: -8.5vh;
+  }
+  
+  .pix{
+    border-radius: 10px;
+    background: #d9d9d9;
+    padding: 10px;
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    position: relative;
+    top: -26.65vh;
+    left: 5.8vw;
+  }
+  
+  .pix p{
+  font-size: 1.2vw;
+  position: relative;
+  top: 0.7vh;
+  
+  }
+  
+  .observacao{
+    font-size: 3.5vh;
+    position: relative;
+    top: -107vh;
+    left: 52vw;
+    width: 40vw;
+  }
+  
+  
+  input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  input:focus:-moz-placeholder { /* Firefox 18- */
+    color: transparent;  
+  }
+  input:focus::-moz-placeholder {  /* Firefox 19+ */
+    color: transparent;  
+  }
+  input:focus:-ms-input-placeholder {  
+    color: transparent;  
+  }
+  
+  /* dar uma atenção nesses dois ultimos inputs */
+  input:invalid {
+    border-color: red !important;
+  }
+  input:valid {
+    border-color: green !important;
+  }
+  
+  select{
+    width: 31vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+  }
+  
+  .convenio a{
+    position: absolute;
+    color: #000;
+    cursor: pointer;
+    top: 34vh;
+    left: 31.5vw;
+  }
