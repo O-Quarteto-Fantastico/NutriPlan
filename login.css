@@ -99,3 +99,15 @@ color: transparent;
 input:focus:-ms-input-placeholder {  
 color: transparent;
 }
+
+.medico-adm{
+    position: relative;
+    top: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.medico-adm a{
+    text-decoration: none;
+    color: #28A9E0;
+}
