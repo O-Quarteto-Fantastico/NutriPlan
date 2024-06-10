@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 6vh;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img{
+    width: 12.5vh;
+    position: absolute;
+    top: -1.7vh;
+    left: 9vw;
+}
+.info1{
+    box-sizing: border-box;
+    margin: 0;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    width: 40vh;
+    height: 38.4vh;
+    border-bottom: transparent;
+    font-family: Arial;
+}
+
+.info1 img{
+    width: 13vh;
+    height: 13vh;
+    border-radius: 50%;
+    position: absolute;
+    left: 19vh;
+    top: 9vh;
+}
+
+.info1 p{
+    position: relative;
+    top: 20vh;
+    left: 0.5vh;
+    font-size: 2.5vh;
+    padding: 1vh;
+}
+
+.info2{
+    box-sizing: border-box;
+    margin: 0;
+    border-style: solid;
+    border-left: transparent;
+    border-bottom: transparent;
+    width: 40vh;
+    height: 49.7vh;
+    font-family: Arial;
+}
+
+.info2 p{
+    position: relative;
+    top: 5vh;
+    left: 0.5vh;
+    font-size: 2.5vh;
+    padding: 2vh;
+}
+
+.sistema{
+    color: #5E9E54;
+    position: relative;
+    top: 5vh;
+    left: 0.5vh;
+    font-size: 2.5vh;
+    padding: 2vh;
+}
+
+.tabela p{
+    position: absolute;
+    top: 10vh;
+    right: 63vh;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.tabela{
+    width: 105vh;
+    height: 57vh;
+    position: absolute;
+    top: 18vh;
+    right: 30vh;
+    background-color: #F4F4F4;
+}
+
+.entrada{ 
+    padding: 1vh 2vh;
+    background-color: #BEF202;
+    position: absolute;
+    top: -5.4vh;
+    left: 0vw;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.saida{
+    padding: 1vh 3.3vh;
+    background-color: #BEF202;
+    position: absolute;
+    top: -5.4vh;
+    left: 8.5vw;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.info3{
+    font-size: 2.5vh;  
+    font-family: Arial;
+    margin-left: 1vh;
+}
+
+.info3 p{
+    font-size: 2.5vh;
+    font-weight: normal;
+    position: relative;
+    right: 0vh;
+    top: 0vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.salvar{
+    position: absolute;
+    width: 26.5vh;
+    height: 8.5vh;
+    right: 15vh;
+    bottom: 10vh;
+    background: #BEF202;
+    border-radius: 100px;
+}
+
+.salvar p{
+    font-family: Arial;
+    font-weight: bold;
+    position: relative;
+    font-size: 3vh;
+    left: 9vh;
+    top: 2.6vh;
+}
+
+.salvar:hover{
+    border: 3px solid #000;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.sair img{
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    right: 0.5vh;
+    bottom: 5.5vh;
+}
+
+.addmedico{
+    position: absolute;
+    bottom: 13vh;
+    right: 70vh;
+    font-size: 3vh;
+    font-family: "Inter";
+}
+
+.addmedico a{
+    text-decoration: none;
+    color: #5E9E54;
+}

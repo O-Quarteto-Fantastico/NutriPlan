@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 150vh;
+    width: 99.1vw;
+    background-image: url(imagens/fundo-agendamento.jfif);
+    background-repeat: no-repeat;
+    background-size: 196vh;
+    background-position-y: bottom;
+}
+
+.voltar img{
+    width: 8vw;
+    position: absolute;
+    top: 8vh;
+    left: 3vw;
+}
+
+.medico img{
+    width: 20vw;
+    border-radius: 50px;
+    position: absolute;
+    top: 18vh;
+    left: 13vw;
+}
+
+.info1{
+    position: absolute;
+    right: 20vw;
+    top: 18vh;
+    text-align: center;
+}
+
+.info1 h1{
+    font-family: "Alef",  sans-serif;
+    padding-bottom: 3vh;
+}
+
+.info1 p{
+    font-family: "Alef",  sans-serif;
+    font-size: 1.2vw;
+    width: 30vw;
+    padding-top: 1vh;
+}
+
+.info1 u{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.4vw;
+}
+
+.info2{
+    position: absolute;
+    right: 20vw;
+    top: 43vh;
+    text-align: center;
+}
+
+.info2 p{
+    font-family: "Alef",  sans-serif;
+    font-size: 1.2vw;
+    width: 30vw;
+    padding-top: 1vh;
+}
+
+.info2 u{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.4vw;
+}
+
+.confirmar{
+    position: absolute;
+    bottom: -30vh;
+    left: 41.5vw;
+    text-align: center;
+}
+
+.confirmar a{
+    font-family: "Alef";
+    font-size: 1.4vw;
+    background-color: #BEF202;
+    padding: 1vh 9vh;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+.dia{
+    position: absolute;
+    bottom: 3vh;
+    left: 20vw;
+    text-align: center;
+}
+
+.dia input{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.4vw;
+    background-color: #BEF202;
+}
+
+.dia p{
+    color: #fff;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    font-family: "Alef";
+}
+
+.hora{
+    position: absolute;
+    bottom: 1.613vh;
+    right: 20vw;
+    text-align: center;
+}
+
+.hora input{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.4vw;
+    background-color: #BEF202;
+}
+
+.hora p{
+    color: #fff;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    font-family: "Alef";
+}
+
+div.consulta {
+    display: flex;
+    max-width: 300px;
+    margin: 5vh auto;
+    position: relative;
+    top: 105vh;
+    left: 25vw;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label {
+    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] + label:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid #8C8C8C;
+    border-radius: 100%;
+    width:  2.5rem;
+    height: 2.5rem;
+    color: transparent;
+    transition: .2s;
+    margin-right: 16px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked + label:before {
+    color: #FFF;
+}
+
+label p{
+    color: #fff;
+    font-size: 2.5vh;
+}
+
+.first input[type=checkbox]:checked + label:before {
+    content: "\1F5B3";
+    color:#000;
+    border: 3px solid #000;
+    background: #15ff00;
+}
+
+.second input[type=checkbox]:checked + label:before {
+    content: "\1F465";
+    color: #FFF;
+    border: 3px solid #000;
+    background: #15ff00;
+}

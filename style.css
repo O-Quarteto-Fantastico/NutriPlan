@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #2B5227,#496D46,#5F9F55);
+}
+
+.navegacao{
+    width: 110vh;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 38vh;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.6vh;
+    margin-top: 8vh;
+}
+
+header p{
+    position: absolute;
+    right: 5vh;
+    color: white;
+    font-size: 5vh;
+    margin-top: 8vh;
+}
+
+.login a{
+    text-decoration: none;
+    position: absolute;
+    right: 5vh;
+    color: white;
+    font-size: 2.6vh;
+    margin-top: -3.5vh;
+    margin-right: 20vh;
+}
+
+body h1{
+    text-align: center;
+    font-size: 5vh;
+}
+
+body p{
+    text-align: center;
+    font-size: 3.5vh;
+    width: 110vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unidade{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(#2D552A, #4C7448, #5E9E54, #FFF);
+    border-radius: 50px;
+    color: #FFF;
+}
+
+.unidade h1{
+    font-size: 5vh;
+    position: relative;
+    top:2vh;
+}
+
+.unidade img{
+    border-radius: 50px;
+    height: 50vh;
+    width: 80vh;
+    position: absolute;
+    left: 10vh;
+    top: 223vh;
+}
+
+.unidade p{
+    width: 70vh;
+    position: absolute;
+    right: 12vh;
+    top:238vh;
+}
+
+.container{
+    display: flex;
+}
+
+.consultas{
+    position: relative;
+    left: -10vh;
+}
+
+.consultas p{
+    width: 70vh;
+}
+
+.exames{
+    position: relative;
+}
+
+.exames p{
+    width: 70vh;
+}
+
+.convênios{
+    height: 95vh;
+    width: 150vh;
+    background-color: #2C5329;
+    border-radius: 100px;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20vh;
+}
+
+.convênios h1{
+    position: relative;
+    top: 5vh;
+    font-size: 6vh;
+}
+
+.convênios img{
+    border-radius: 100px;
+    position: relative;
+    width: 40vh;
+    height: 30vh;
+    left: 28vh;
+    top: 5vh;
+    margin:3vh;
+}
+
+.convenioimg{
+    width: 120vh;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54);
+}
+
+#postxt1 {
+    position: relative;
+    left: -52vh;
+    top:-10px;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    color: #fff;
+}
+#postxt2 {
+    position: relative;
+    left: -40vh;
+    top:-1vh;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    color: #fff;
+}
+#postxt3 {
+    position: relative;
+    top: 12vh;
+    left: 77vh;
+    height: 5vh;
+    width: 30vh;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    color: #fff;
+}
+#enderecolink {
+    font-size: 2.3vh;
+    position: relative;
+    top: 11vh;
+    left: -66vh;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3;
+    color: #fff;
+}
+#LogoNutriPlan {
+    border: 3px solid #fff;
+    width: 30vh;
+    position: relative;
+    top: 9.5vh;
+    left: 83vh;
+}
+#FacebookIcon {
+    width: 13vh;
+    position: relative;
+    top: 10.5vh;
+    left: 122vh;
+}
+#WhatsAppIcon {
+    width: 8vh;
+    position: relative;
+    top: 10.5vh;
+    left: 126vh;
+}
+#InstagramIcon {
+    width: 10vh;
+    position: relative;
+    top: 10.5vh;
+    left: 131vh;
+}
+#LocalizationIcon {
+    width: 13vh;
+    position: relative;
+    top: 10.5vh;
+    left: -65vh;
+}

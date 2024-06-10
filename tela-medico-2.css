@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo-de-cima img {
+    width: 6.3vw;
+    position: absolute;
+    left: 8vw;
+    top: -1.5vh;
+}
+
+.perfil img{
+    width: 8vw;
+    position: relative;
+    left: 4vw ;
+    top: 1vh;
+
+}
+  
+.nome-paciente{
+    position: absolute;
+    left: 15vw;
+    top: 11vh;
+    font-size:x-large;
+}
+
+.idade-paciente{
+    position: absolute;
+    left: 15vw;
+    top: 14vh;
+    font-size: large;
+}
+  
+.quadros {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cvn-ptc {
+    position: absolute;
+    left: 15vw;
+    top: 17vh;
+}
+
+.btn-1 {
+    background-color: #BEF202;
+    color: #000000;
+    border: none;
+    width: 4vw;
+    height: 2vh;
+    cursor: pointer;
+}
+
+.btn-2:enabled {
+    background-color: #28A9E0;
+    color: #000000;
+    border: none;
+    width: 4vw;
+    height: 2vh;
+    cursor: pointer;
+}
+
+  /* disabled e enabled ou active para particular e convenio */
+    /* part/conv
+
+position: absolute;
+width: 191px;
+height: 16.11px;
+left: 290px;
+top: 193px;
+     */
+
+.outros-perfis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    width: 28vw;
+    height: 10vh;
+    border-radius: 50px;
+    position: absolute;
+    left: 35vw;
+    top: 82vh;
+}
+
+.outros-perfis img{
+    margin-top: 0.7vh;
+    width: 4.5vw;
+}
+
+.btn-3 {
+    background-color: #BEF202;
+    color: #000000;
+    width: 4.5vw;
+    height: 9vh;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.barra-lateral {
+    position: absolute;
+    left: 97.3vw;
+}
+
+.img-1 img{
+    width: 2.5vw;
+    height: 5vh;
+    border-radius: 0.2vw;
+    position: absolute;
+    bottom: 12.1vh;
+    cursor: pointer;
+}
+
+.img-2 img{
+    width: 2vw;
+    height: 4vh;
+    position: absolute;
+    bottom: 7vh;
+    cursor: pointer;
+}
+
+.img-3 img{
+    width: 2vw;
+    height: 4vh;
+    position: absolute;
+    top: 66.5vh;
+    cursor: pointer;
+}
+
+.notificação{
+    position: absolute;
+    right: -5.4vh;
+    top: -11vh;
+}
+
+.notificação button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.notificação img{
+    width: 6vh;
+    height: 6vh;
+}
+
+.aba-notificação img{
+    width: 30vh;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    left: 165vh;
+    top: 6vh;
+}
+
+.retorno{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 18vw;
+    height: 23vh;
+    position: absolute;
+    left: 7.7vw;
+    top: 25vh;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.retorno h4{
+    position: relative;
+    width: 15vw;
+    height: 2.5vh;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 1vh;
+    background-color: #BEF202;
+}
+
+.retorno p{
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+}
+
+.consultas{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 18vw;
+    height: 23vh;
+    position: absolute;
+    left: 30vw;
+    top: 25vh;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.consultas h4{
+    position: relative;
+    width: 15vw;
+    height: 2.5vh;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #BEF202;
+}
+
+.exames{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 18vw;
+    height: 23vh;
+    position: absolute;
+    left: 7.7vw;
+    top: 55vh;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.exames h4{
+    position: relative;
+    width: 15vw;
+    height: 2.5vh;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #BEF202;
+}
+
+.alergias{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 18vw;
+    height: 23vh;
+    position: absolute;
+    left: 30vw;
+    top: 55vh;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.alergias h4{
+    color: #fff;
+    position: relative;
+    width: 15vw;
+    height: 2.5vh;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #F40034;
+}
+
+.alergias p{
+    margin-bottom: 1vh;
+}
+
+.diagnosticos{
+    width: 40vw;
+    height: 53vh;
+    position: absolute;
+    left: 52.5vw;
+    top: 25vh;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.diagnosticos h4{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    width: 37vw;
+    height: 4vh;
+    font-size: 3vh;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #BEF202;
+}
+
+.diagnosticos p{
+    font-size: 2.5vh;
+    margin-left: 0.8vw;
+}

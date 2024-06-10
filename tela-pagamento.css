@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(imagens/fundo-tela-pagamento.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-width: 6.5vh;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img{
+    width: 12.5vh;
+    position: absolute;
+    top: -1.5vh;
+    left: 9vw;
+}
+
+.info p{
+    font-size: 3vh;
+    font-family: "Alef", sans-serif;
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    top: 12vh;
+}
+
+.confirmar{
+    position: absolute;
+    left: 38vw;
+    bottom:20vh
+}
+
+.confirmar a{
+    font-family: "Alef";
+    font-size: 1.4vw;
+    background-color: #BEF202;
+    padding: 2vh 10vh;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+.voltar img{
+    width: 8vw;
+    position: absolute;
+    top: 8vh;
+    left: 3vw;
+}

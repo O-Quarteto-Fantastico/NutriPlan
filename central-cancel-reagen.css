@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border-width: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #2b5227, #3f643b, #507e4b, #5e9e54) 1;
+    height: 100vh;
+    width: 100vw;
+}
+h1 {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+a {
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    position: absolute;
+    left: 6.2vw;
+    top: 18vh;
+}
+label {
+    font-family: "Alef", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+}
+input {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: 0px;
+    height: 5vh;
+}
+#titulo {
+    position: absolute;
+    left: 10.35vw;
+    top: 10vh;
+}
+#reagendar {
+    padding: 2.7vh 15.6vh;
+    background-color: #BEF202;
+    text-decoration: none;
+    color: #000;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 16vw;
+    top: 70vh;
+}
+#cancelar {
+    padding: 2.7vh 8vh;
+    background-color: #F40000;
+    text-decoration: none;
+    color: #000;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 16vw;
+    top: 80vh;
+}
+#barra-div-meio {
+    box-sizing: border-box;
+    border: 0.2vw solid #000;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    width: 50%;
+    height: 90%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 5vh;
+}
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    position: absolute;
+    left: 53vw;
+    top: 15vh;
+}
+#home-botao {
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    right: 0.5vh;
+    bottom: 6vh;
+}
+#voltar {
+    position: absolute;
+    left: 88.5vw;
+    top: 6.5vh;
+}
